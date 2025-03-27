@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Figurinhas</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        input, button { margin: 10px; }
+        canvas { display: none; }
+    </style>
+</head>
+<body>
+    <h1>Gerador de Figurinhas para WhatsApp</h1>
+    <input type="file" id="upload" accept="image/*">
+    <button onclick="generateSticker()">Gerar Figurinha</button>
+    <br>
+    <a id="download" style="display:none">Baixar Figurinha</a>
+    <canvas id="canvas"></canvas>
+    
+    <script src="indexSticks.js"></script>
+</body>
+</html>
